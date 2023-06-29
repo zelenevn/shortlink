@@ -1,5 +1,6 @@
 plugins {
-    id("java")
+    java
+    id("org.springframework.boot") version "3.1.1"
 }
 
 group = "site.zelenev"
